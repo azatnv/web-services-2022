@@ -1,0 +1,5 @@
+<form method="post" action="we_got_a_sentence" validate>
+    {% csrf_token %}
+    {{ form }}
+    <button type="submit">Submit</button>
+</form>
